@@ -33,15 +33,15 @@ PLEASE DO SEE THAT YOU HAVE PYTHON 3 8.0 OR ABOVE RUNNING ON YOUR DEVICE.
 
 USAGE:
 
-1. To run the setup tool (Windows):   
+1. To run the setup tool:   
 
 python setup.py
 
-2. To run Max (Windows):
+2. To run Max:
 
 python automate_task_final.py
 
-3. For any module not installed (Windows):
+3. For any module not installed:
 
 pip install module_name
 

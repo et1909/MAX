@@ -30,7 +30,7 @@ def setup():
         # to be opened so that the programmer can execute code even after the request is sent.
         z = zipfile.ZipFile(io.BytesIO(r.content)) #zipfile is the module calling ZipFile which opens the zip file in
         # read and write format.
-        z.extractall(path="C:\\Program Files (x86)") # extractall extracts the zip file to the current working
+        z.extractall(path="/usr/local/bin") # extractall extracts the zip file to the current working
         # directory when the dev has not mentioned the path.
     elif system_info == "Darwin":
         print("HELLO")
@@ -39,7 +39,7 @@ def setup():
         # to be opened so that the programmer can execute code even after the request is sent.
         z = zipfile.ZipFile(io.BytesIO(r.content)) #zipfile is the module calling ZipFile which opens the zip file in
         # read and write format.
-        z.extractall(path="C:\\Program Files (x86)") # extractall extracts the zip file to the current working
+        z.extractall(path="/usr/local/bin") # extractall extracts the zip file to the current working
         # directory when the dev has not mentioned the path.
     else:
         print("SYSTEM NOT RECOGNIZED. ENSURE THAT THE SYSTEM IS EITHER [Windows]/[Linux]/[MacOS]. \n CONTACT DEVELOPER FOR MORE INFO")
